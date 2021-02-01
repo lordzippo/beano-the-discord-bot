@@ -2,8 +2,6 @@
 import os
 
 import discord
-import movie_manager
-import mongo_manager
 from dotenv import load_dotenv
 from discord.ext import commands
 

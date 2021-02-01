@@ -1,8 +1,8 @@
 from collections import defaultdict
-from mongo_manager import MONGO_CONNECTION_STRING
 import pymongo
 from pymongo.mongo_client import MongoClient
 from datetime import datetime
+import os
 class Beano:
 
     hunger      = 0
@@ -11,7 +11,7 @@ class Beano:
     affection   = 0
     age         = 0
     pat_cooldown = 60
-    MONGO_CONNECTION_STRING = 'mongodb+srv://wlogga:j8w6AhB5LjAeQGU@cluster0.sxzam.mongodb.net/test'
+    MONGO_CONNECTION_STRING = os.getenv('MONGO_CONNECTION_STRING')
     
     def __init__(self):
         pass
