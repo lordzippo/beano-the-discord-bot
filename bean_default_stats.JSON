@@ -1,0 +1,16 @@
+{
+    "hunger":0,
+    "thirst":0,
+    "energy":0,
+    "affection":0,
+    "date_created":0,
+    "name":"Beano"
+}
+
+{
+    "name":"Beano Chow",
+    "description":"Cheap and filling.",
+    "cost":1,
+    "effect":["hunger":1],
+    "active":true  
+  }
